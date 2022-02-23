@@ -1,4 +1,4 @@
-var numTotalAlunos = 81;  //Por gentileza insira o número de alunos
+var numTotalAlunos = 9;  //Por gentileza insira o número de alunos
 var contador = 0;
 var numero;
 
@@ -7,7 +7,7 @@ while (contador < numTotalAlunos) {
 contador++;    
 }
     if (numTotalAlunos === 0) {
-        return console.log("O número é zero");
+        return console.log(`O número é zero! ${numTotalAlunos}`);
     } else if (numTotalAlunos !== 0) {
         numero = numTotalAlunos % 2
     } if (numero === 0) {
