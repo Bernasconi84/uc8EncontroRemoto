@@ -1,4 +1,4 @@
-var numTotalAlunos = 24;
+var numTotalAlunos = 81;  //Por gentileza insira o número de alunos
 var contador = 0;
 var numero;
 
